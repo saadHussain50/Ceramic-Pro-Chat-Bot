@@ -53,7 +53,7 @@ st.title("CERAMIC PRO INDIA")
 st.write("Welcome to Ceramic Pro Customer Service Chat! 💬")
 
 # Sports car image banner
-st.image("C:\my projects\Ceramic_pro.png", caption="Ceramic Pro - Protecting What You Love 🏎️", use_container_width=True)
+st.image("https://ceramicpro.com/wp-content/uploads/2021/10/ceramic_pro_kavaca_clear_bra_bismarck_nd.jpg", caption="Ceramic Pro - Protecting What You Love 🏎️", use_container_width=True)
 
 # Initialize session state
 if "chat_history" not in st.session_state:
@@ -110,6 +110,7 @@ for sender, message in st.session_state.chat_history:
         st.markdown(f"**🧑‍💻 {sender}:** {message}")
     else:
         st.markdown(f"**🤖 {sender}:** {message}")
+
 
 
 
